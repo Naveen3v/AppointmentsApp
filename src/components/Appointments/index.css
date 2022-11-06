@@ -1,0 +1,95 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  height: 100vh;
+  background-size: cover;
+}
+.inner {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  width: 80vw;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.appointment {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.mainheading {
+  font-family: 'Bree Serif';
+  font-size: 25px;
+  margin-bottom: 2%;
+}
+.formcontainer {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5%;
+  margin-top: 1%;
+}
+.mainimage {
+  height: 200px;
+  width: 200px;
+  margin-left: 5%;
+}
+.nameinput {
+  height: 30px;
+  width: 200px;
+  margin-top: 5%;
+}
+.inputtitle {
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+.inputdate {
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-top: 5%;
+}
+.formbtn {
+  color: white;
+  background-color: #8b5cf6;
+  height: 40px;
+  width: 120px;
+  border-radius: 5px;
+  border: 0px;
+  margin-top: 5%;
+}
+.line {
+  border: 1px solid #8b5cf6;
+
+  width: 80%;
+}
+.btcont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.btheading {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.btbtn {
+  color: #8b5cf6;
+  background-color: transparent;
+  height: 40px;
+  width: 120px;
+  border: 2px solid #8b5cf6;
+  border-radius: 5px;
+}
+.listcontainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
